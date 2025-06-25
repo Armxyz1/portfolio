@@ -73,7 +73,8 @@ const skills = {
           fontAwesomeClassname: "logos-numpy",
           style: {
             backgroundColor: "transparent",
-          },        },
+          },
+        },
         {
           skillName: "PyTorch",
           fontAwesomeClassname: "logos-pytorch",
@@ -94,7 +95,7 @@ const skills = {
           fontAwesomeClassname: "logos-opencv",
           style: {
             backgroundColor: "transparent",
-        },
+          },
         },
         {
           skillName: "Scikit-learn",
@@ -174,27 +175,28 @@ const skills = {
           },
         },
       ],
-    }, {
+    },
+    {
       title: "Skills",
       fileName: "FullStackImg",
       skills: [
         "🧠 AI Concepts: Supervised & Unsupervised Learning, Transfer Learning, Fine-Tuning",
         "🗣️ NLP: RAGs, Generative AI, LLMs, RNNs, LSTMs, AI Agents",
         "🖼️ Computer Vision: Image Classification, Object Detection, Image Segmentation, YOLO, ViT, GANs",
-        "📊 Data Science: Recommendation Systems, Statistical Modeling, Hypothesis Testing, A/B Testing, Feature Engineering"
+        "📊 Data Science: Recommendation Systems, Statistical Modeling, Hypothesis Testing, A/B Testing, Feature Engineering",
       ],
       softwareSkills: [],
-    }, 
+    },
     {
       title: "Areas of Interest",
       fileName: "",
-    skills: [
-      "🧠 Artificial Intelligence, Machine Learning, Deep Learning, Natural Language Processing, Computer Vision",
-      "📊 Data Science, Probability, Statistics, Optimization, Distributed Computing",
-      "🧮 Linear Algebra, Calculus, Discrete Mathematics",
-      "🕸️ Graph Theory, Game Theory"
-    ],
-      softwareSkills: []
+      skills: [
+        "🧠 Artificial Intelligence, Machine Learning, Deep Learning, Natural Language Processing, Computer Vision",
+        "📊 Data Science, Probability, Statistics, Optimization, Distributed Computing",
+        "🧮 Linear Algebra, Calculus, Discrete Mathematics",
+        "🕸️ Graph Theory, Game Theory",
+      ],
+      softwareSkills: [],
     },
   ],
 };
@@ -209,12 +211,12 @@ const degrees = {
       alt_name: "IISc Bengaluru",
       duration: "2022 - Present",
       descriptions: [
-      "🎓 4th Year Undergraduate Student with a CGPA of 9.8/10",
-      "🎯 Sports Coordinator - Chess ♟️ and Speedcubing 🧩",
-      "🏅 Awarded Chander Mohini Scholarship for Highest CGPA in 1st Year",
-      "📈 Acheieved Top Quartile in University in Simon Marais Mathematics Challenge 2023",
-      "🏆 Regional Qualifier for IET India Scholarship Awards 2023"
-    ],
+        "🎓 4th Year Undergraduate Student with a CGPA of 9.8/10",
+        "🎯 Sports Coordinator - Chess ♟️ and Speedcubing 🧩",
+        "🏅 Awarded Chander Mohini Scholarship for Highest CGPA in 1st Year",
+        "📈 Acheieved Top Quartile in University in Simon Marais Mathematics Challenge 2023",
+        "🏆 Regional Qualifier for IET India Scholarship Awards 2023",
+      ],
       website_link: "http://iisc.ac.in",
     },
     {
@@ -228,7 +230,7 @@ const degrees = {
         "🏆 CBSE XII Board (2022): 97.4% Aggregate (Mathematics 100%, Computer Science 100%)",
         "🏆 CBSE X Board (2020): 96.4% Aggregate (Mathematics 100%)",
         "🏆 SOF IMO and NSO 2022, International Rank: 1",
-        "🏆 Kishore Vaigyanik Protsahan Yojana 2022, All India Rank: 726"
+        "🏆 Kishore Vaigyanik Protsahan Yojana 2022, All India Rank: 726",
       ],
       website_link: "https://ahlconpublicschool.com/",
     },
@@ -265,14 +267,15 @@ const certifications = {
       color_code: "#00000099",
     },
     {
-      title: "Certificate of Participation in Quiz Round of Kharagpur Data Science Hackathon 2025",
+      title:
+        "Certificate of Participation in Quiz Round of Kharagpur Data Science Hackathon 2025",
       subtitle: "- Unstop",
       logo_path: "unstop.png",
       certificate_link:
         "https://unstop.com/certificate-preview/7edf5d5f-fd3f-405e-8022-6dac33c1515b",
       alt_name: "Unstop",
-      color_code: "#00000099",
-    }
+      color_code: "#1c4980",
+    },
   ],
 };
 
@@ -280,11 +283,10 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Internship and Volunteership",
-  description:
-    "",
+  description: "",
   header_image_path: "experience.svg",
   sections: [
-      {
+    {
       title: "Internships",
       work: true,
       experiences: [
@@ -307,14 +309,13 @@ const experience = {
           duration: "May 2024 - July 2024",
           location: "Bengaluru, Karnataka, India",
           description:
-          "Researched Bias Detection in state-of-the-art Facial Recognition algorithms. Designed experiments revealing ~20% disparity across groups. Deployed deep learning models like AdaFace, GhostFace, ArcFace, etc. to analyze biases and enhance dataset robustness. Generated synthetic data using GANs to mitigate biases.",
+            "Researched Bias Detection in state-of-the-art Facial Recognition algorithms. Designed experiments revealing ~20% disparity across groups. Deployed deep learning models like AdaFace, GhostFace, ArcFace, etc. to analyze biases and enhance dataset robustness. Generated synthetic data using GANs to mitigate biases.",
           color: "#ee3c26",
         },
         {
           title: "AI Intern",
           company: "IBM",
-          company_url:
-            "https://www.ibm.com/in-en",
+          company_url: "https://www.ibm.com/in-en",
           logo_path: "ibm_logo.png",
           duration: "June 2023 - December 2023",
           location: "Remote",
@@ -336,9 +337,9 @@ const experience = {
           location: "Bengaluru, Karnataka, India",
           description:
             "One of the core members of Databased, the computer science crew of IISc. I was part of the content design team. I have designed interactive projects - Tic Tac Toe solver, Rock Paper Scissors using Computer Vision, Celebrity look alike cam - for Open Day 2023 and 2024. Currently I'm a project guide for an introductory AI/ML tutorial series for first year students.",
-          color: "#4285F4",
+          color: "#002a36",
         },
-          {
+        {
           title: "Member of Autonomous Navigation Team",
           company: "Vicharaka",
           company_url: "https://vicharaka.iisc.ac.in/",
