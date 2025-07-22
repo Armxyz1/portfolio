@@ -1,1 +1,116 @@
-{"data":[{"id":"R_kgDONP3SHw","name":"Sports-Analysis","createdAt":"2024-11-15T14:10:01Z","url":"https://github.com/Armxyz1/Sports-Analysis","description":"This repository contains a pipeline for a Soccer Game Analysis using Computer Vision and Artificial Intelligence","isFork":true,"languages":[{"name":"JavaScript","iconifyClass":"logos-javascript"},{"name":"Python","iconifyClass":"logos-python"},{"name":"CSS","iconifyClass":"logos-css-3"},{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"Jupyter Notebook","iconifyClass":"logos-jupyter"}]},{"id":"R_kgDOO2vzCA","name":"SeeWhatYouShrink","createdAt":"2025-06-05T17:22:45Z","url":"https://github.com/Armxyz1/SeeWhatYouShrink","description":"Knowledge Distillation on ViT to preserve explainability","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos-python"},{"name":"Shell","iconifyClass":"simple-icons:shell"}]},{"id":"R_kgDOPABBtg","name":"ElectionGPT-POC","createdAt":"2025-06-22T18:09:06Z","url":"https://github.com/Armxyz1/ElectionGPT-POC","description":"Proof of Concept for development of ElectionGPT chatbot at IBM","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos-python"}]},{"id":"R_kgDOOgK4Yg","name":"GNN_Acceleration","createdAt":"2025-04-26T15:50:25Z","url":"https://github.com/Armxyz1/GNN_Acceleration","description":"Comparative study of GNN Acceleration techniques","isFork":true,"languages":[{"name":"Python","iconifyClass":"logos-python"}]},{"id":"R_kgDONXTDRg","name":"Genomics","createdAt":"2024-12-01T12:53:28Z","url":"https://github.com/Armxyz1/Genomics","description":"X Chromosome analysis using read matching to detect genetic abnormalities.","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos-python"},{"name":"Jupyter Notebook","iconifyClass":"logos-jupyter"}]},{"id":"R_kgDOMaAK3A","name":"Results-on-RFW","createdAt":"2024-07-23T09:41:44Z","url":"https://github.com/Armxyz1/Results-on-RFW","description":"Results of popular SOTA FR models on RFW dataset split by genders.","isFork":false,"languages":[{"name":"Jupyter Notebook","iconifyClass":"logos-jupyter"},{"name":"Python","iconifyClass":"logos-python"}]}]}
+{
+  "data": [
+    {
+      "id": "R_kgDONP3SHw",
+      "name": "Sports-Analysis",
+      "createdAt": "2024-11-15T14:10:01Z",
+      "url": "https://github.com/Armxyz1/Sports-Analysis",
+      "description": "This repository contains a pipeline for a Soccer Game Analysis using Computer Vision and Artificial Intelligence",
+      "isFork": true,
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOO2vzCA",
+      "name": "SeeWhatYouShrink",
+      "createdAt": "2025-06-05T17:22:45Z",
+      "url": "https://github.com/Armxyz1/SeeWhatYouShrink",
+      "description": "Knowledge Distillation on ViT to preserve explainability",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Shell",
+          "iconifyClass": "simple-icons:shell"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOPABBtg",
+      "name": "ElectionGPT-POC",
+      "createdAt": "2025-06-22T18:09:06Z",
+      "url": "https://github.com/Armxyz1/ElectionGPT-POC",
+      "description": "Proof of Concept for development of ElectionGPT chatbot at IBM",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOOgK4Yg",
+      "name": "GNN_Acceleration",
+      "createdAt": "2025-04-26T15:50:25Z",
+      "url": "https://github.com/Armxyz1/GNN_Acceleration",
+      "description": "Comparative study of GNN Acceleration techniques",
+      "isFork": true,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDONXTDRg",
+      "name": "Genomics",
+      "createdAt": "2024-12-01T12:53:28Z",
+      "url": "https://github.com/Armxyz1/Genomics",
+      "description": "X Chromosome analysis using read matching to detect genetic abnormalities.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOO8FNyA",
+      "name": "GanFace",
+      "createdAt": "2025-06-15T16:49:33Z",
+      "url": "https://github.com/Armxyz1/GanFace",
+      "description": "Synthetic Face generation using GANs.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Shell",
+          "iconifyClass": "simple-icons:shell"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    }
+  ]
+}
