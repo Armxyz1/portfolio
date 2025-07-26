@@ -95,11 +95,11 @@
       ]
     },
     {
-      "id": "R_kgDOO8FNyA",
-      "name": "GanFace",
-      "createdAt": "2025-06-15T16:49:33Z",
-      "url": "https://github.com/Armxyz1/GanFace",
-      "description": "Synthetic Face generation using GANs.",
+      "id": "R_kgDOPSzlWQ",
+      "name": "DiffFace",
+      "createdAt": "2025-07-25T18:28:32Z",
+      "url": "https://github.com/Armxyz1/DiffFace",
+      "description": "Diffusion Models for Synthetic Face Generation",
       "isFork": false,
       "languages": [
         {
