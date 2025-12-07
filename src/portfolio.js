@@ -24,7 +24,7 @@ const greeting = {
   subTitle:
     "Machine Learning Engineer passionate about building scalable AI solutions and end-to-end products that create real-world impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1fE1ZBrwDeL9GDW75UUCYBT0SwvR1HfOt/view?usp=sharing",
+    "https://drive.google.com/file/d/1WThtwd-jzGQ9MqgJuoxUMxzhNUy6G_97/view?usp=sharing",
   portfolio_repository: "https://github.com/Armxyz1/portfolio",
   githubProfile: "https://github.com/Armxyz1",
 };
