@@ -2,9 +2,11 @@
   color: rgb(88, 96, 105);
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
-  padding: 2rem;
+  padding: 1.25rem;
   cursor: pointer;
-  flex: 1 1 25%;
+  /* default: 3 columns layout. Uses the same gap as container (1rem) -> 2 gaps between 3 cols */
+  flex: 0 0 calc((100% - 2rem) / 3);
+  box-sizing: border-box;
 }
 .publication-card-div:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
@@ -51,9 +53,10 @@
   margin-right: auto;
 }
 
-@media (max-width: 1200px) {
+/* <= 900px: 2 columns */
+@media (max-width: 900px) {
   .publication-card-div {
-    flex: 1 1 40%;
+    flex: 0 0 calc((100% - 1rem) / 2);
   }
 }
 

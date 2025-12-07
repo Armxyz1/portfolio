@@ -2,16 +2,21 @@
 
 .header {
   display: block;
-  max-width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
+  /* force header to span the full viewport to avoid page-specific shrinking */
+  max-width: none;
+  width: 100vw;
+  left: 0;
+  box-sizing: border-box;
+  padding: 20px 60px;
+  margin: 0;
 }
 
 .header ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  overflow: hidden;
+  /* Allow menu to overflow if it exceeds container width so items aren't clipped */
+  overflow: visible;
   /* background-color: #fff; */
 }
 .grey-color {
@@ -126,16 +131,35 @@
 /* 48em = 768px */
 
 @media (min-width: 48em) {
-  .header li {
-    float: left;
-  }
   .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+
+  /* Use flex for the menu to prevent items wrapping to the next line */
   .header .menu {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: nowrap;
     max-height: none;
+    white-space: nowrap;
+  }
+
+  /* make sure the menu sits to the right of the logo and keeps layout consistent */
+  .header .menu {
+    margin-left: auto;
+  }
+
+  /* Stop using floats when using flex layout */
+  .header li {
+    float: none;
+  }
+
+  /* Slightly reduce horizontal padding on larger screens to avoid wrapping */
+  .header li a {
+    padding: 18px 14px;
   }
   .header .menu-icon {
     display: none;

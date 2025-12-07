@@ -274,7 +274,7 @@ const certifications = {
       certificate_link:
         "https://unstop.com/certificate-preview/7edf5d5f-fd3f-405e-8022-6dac33c1515b",
       alt_name: "Unstop",
-      color_code: "#1c4980",
+      color_code: "#00000099",
     },
   ],
 };
@@ -337,7 +337,7 @@ const experience = {
           location: "Bengaluru, Karnataka, India",
           description:
             "One of the core members of Databased, the computer science crew of IISc. I was part of the content design team. I have designed interactive projects - Tic Tac Toe solver, Rock Paper Scissors using Computer Vision, Celebrity look alike cam - for Open Day 2023 and 2024. Currently I'm a project guide for an introductory AI/ML tutorial series for first year students.",
-          color: "#002a36",
+          color: "#4285F4",
         },
         {
           title: "Member of Autonomous Navigation Team",
@@ -379,37 +379,24 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
-// const publicationsHeader = {
-//   title: "Publications",
-//   description: "Some of my published Articles, Blogs and Research.",
-//   avatar_image_path: "projects_image.svg",
-// };
+const publicationsHeader = {
+  title: "Publications",
+  description: "My published Research Work.",
+  avatar_image_path: "projects_image.svg",
+};
 
-// const publications = {
-//   data: [
-//     {
-//       id: "neuro-symbolic-sudoku-solver",
-//       name: "Neuro-Symbolic Sudoku Solver",
-//       createdAt: "2023-07-02T00:00:00Z",
-//       description: "Paper published in KDD KiML 2023",
-//       url: "https://arxiv.org/abs/2307.00653",
-//     },
-//     {
-//       id: "mdp-diffusion",
-//       name: "MDP-Diffusion",
-//       createdAt: "2023-09-19T00:00:00Z",
-//       description: "Blog published in Paperspace",
-//       url: "https://blog.paperspace.com/mdp-diffusion/",
-//     },
-//     {
-//       id: "consistency-models",
-//       name: "Consistency Models",
-//       createdAt: "2023-10-12T00:00:00Z",
-//       description: "Blog published in Paperspace",
-//       url: "https://blog.paperspace.com/consistency-models/",
-//     },
-//   ],
-// };
+const publications = {
+  data: [
+    {
+      id: "soccart",
+      name: "SoccArt: Soccer Game Analysis Pipeline",
+      createdAt: "2024-12-14T00:00:00Z",
+      description:
+        "Poster Presented at 1st International Conference on Applied AI and Scientific Machine Learning 2024 (CASML)",
+      url: "https://zenodo.org/records/17837442",
+    },
+  ],
+};
 
 // Contact Page
 const contactPageData = {
@@ -431,7 +418,7 @@ export {
   certifications,
   experience,
   projectsHeader,
-  // publicationsHeader,
-  // publications,
+  publicationsHeader,
+  publications,
   contactPageData,
 };
