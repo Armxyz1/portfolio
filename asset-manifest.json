@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2d83b307.css",
-    "main.js": "/portfolio/static/js/main.ef884b58.js",
+    "main.css": "/portfolio/static/css/main.627b51b1.css",
+    "main.js": "/portfolio/static/js/main.34ccd3f4.js",
     "static/media/portfolio.gif": "/portfolio/static/media/portfolio.ed6c89f1485f23014ebd.gif",
+    "static/media/AK_favicon_round.png": "/portfolio/static/media/AK_favicon_round.a827f67d842d6d3d29a5.png",
+    "static/media/research.png": "/portfolio/static/media/research.4353f821993eb2ff058d.png",
     "static/media/fa-solid-900.svg": "/portfolio/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "/portfolio/static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
     "static/media/tiktok_logo.png": "/portfolio/static/media/tiktok_logo.bf41765c122d4b0f3fee.png",
     "static/media/me_circ.png": "/portfolio/static/media/me_circ.c048a2cd95c54a52ce50.png",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/iu_logo.png": "/portfolio/static/media/iu_logo.5f44628376f5171bea0f.png",
-    "static/media/research.png": "/portfolio/static/media/research.906fcb2229c3142c0fee.png",
     "static/media/dsc_logo.png": "/portfolio/static/media/dsc_logo.fdf993910e3f48d0cf30.png",
     "static/media/fa-solid-900.eot": "/portfolio/static/media/fa-solid-900.d93bcbbb0fbfad39d905.eot",
     "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.aae41ea25bd0dde9f796.ttf",
@@ -74,11 +75,11 @@
     "static/media/googleAssistant.svg": "/portfolio/static/media/googleAssistant.1c2312558eb2e5f04a45.svg",
     "static/media/talksCardBackAlt.svg": "/portfolio/static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
-    "main.2d83b307.css.map": "/portfolio/static/css/main.2d83b307.css.map",
-    "main.ef884b58.js.map": "/portfolio/static/js/main.ef884b58.js.map"
+    "main.627b51b1.css.map": "/portfolio/static/css/main.627b51b1.css.map",
+    "main.34ccd3f4.js.map": "/portfolio/static/js/main.34ccd3f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d83b307.css",
-    "static/js/main.ef884b58.js"
+    "static/css/main.627b51b1.css",
+    "static/js/main.34ccd3f4.js"
   ]
 }
