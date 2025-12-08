@@ -292,7 +292,7 @@ const experience = {
       experiences: [
         {
           title: "Machine Learning Intern",
-          company: "KLA Tencor",
+          company: "KLA Corporation",
           company_url: "https://www.kla.com/",
           logo_path: "kla.png",
           duration: "May 2025 - Present",
@@ -375,7 +375,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create AI/ML projects and deploy them to solve real world problems.",
   avatar_image_path: "projects_image.svg",
 };
 

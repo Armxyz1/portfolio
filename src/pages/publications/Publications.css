@@ -1,15 +1,16 @@
 .publications-main {
   width: 100%;
+  text-align: center;
 }
 
 .basic-publications {
-  padding: 2rem 1rem;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .publications-heading-div {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .publications-heading-div > * {
@@ -20,51 +21,73 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* large illustrative image size on desktop */
-  flex: 0 0 450px;
 }
 
 .publications-heading-img {
-  width: 450px;
-  height: 450px;
-  object-fit: contain;
+  max-width: 110%;
+  height: auto;
 }
 
 .publications-heading-text-div {
-  max-width: 900px;
   text-align: center;
 }
 
 .publications-heading-text {
-  font-size: 2.5rem;
-  margin: 0.5rem 0;
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 80px;
 }
 
 .publications-header-detail-text {
-  margin: 0.5rem 0 1.5rem 0;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Google Sans Medium";
 }
 
 .publication-cards-div-main {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  padding: 1rem;
+  gap: 1rem 1rem;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 60px;
+}
+
+@media (max-width: 1380px) {
+  .publications-heading-text {
+    font-size: 50px;
+    margin-top: 80px;
+  }
 }
 
 @media (max-width: 768px) {
   .publications-heading-text {
-    font-size: 2rem;
+    font-size: 30px;
+    margin-top: 20px;
   }
+
   .publications-heading-div {
     flex-direction: column;
   }
-  .publications-heading-img-div {
-    margin-bottom: 1rem;
-    flex: 0 0 auto;
+
+  .publications-header-detail-text {
+    font-size: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    line-height: normal;
+    text-align: center;
   }
-  .publications-heading-img {
-    width: 180px;
-    height: auto;
+
+  .publication-cards-div-main {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
   }
 }
