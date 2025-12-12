@@ -295,7 +295,7 @@ const experience = {
           company: "KLA Corporation",
           company_url: "https://www.kla.com/",
           logo_path: "kla.png",
-          duration: "May 2025 - Present",
+          duration: "May 2025 - December 2025",
           location: "Chennai, Tamil Nadu, India",
           description:
             "Building ML algorithms and feature engineering for semiconductor manufacturing processes. Working on data analysis, model development, and deployment to improve yield and process efficiency.",
