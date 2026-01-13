@@ -7,11 +7,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Portfolio of Armaan Khetarpaul",
+  title: "Armaan Khetarpaul — Portfolio",
   description:
     "Machine Learning Engineer passionate about building scalable AI solutions and end-to-end products that create real-world impact.",
   og: {
-    title: "Armaan Khetarpaul -- Portfolio",
+    title: "Armaan Khetarpaul — Portfolio",
     type: "website",
     url: "https://armxyz1.github.io/portfolio/",
   },
