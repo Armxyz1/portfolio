@@ -206,12 +206,12 @@ const degrees = {
   degrees: [
     {
       title: "Indian Institute of Science, Bengaluru",
-      subtitle: "B.Tech. in Mathematics & Computing",
+      subtitle: "B.Tech in Mathematics & Computing",
       logo_path: "iisc_logo.png",
       alt_name: "IISc Bengaluru",
-      duration: "2022 - Present",
+      duration: "October 2022 - July 2026",
       descriptions: [
-        "🎓 4th Year Undergraduate Student with a CGPA of 9.8/10",
+        "🎓 Graduated with a CGPA of 9.8/10",
         "🎯 Sports Coordinator - Chess ♟️ and Speedcubing 🧩",
         "🏅 Awarded Chander Mohini Scholarship for Highest CGPA in 1st Year",
         "📈 Acheieved Top Quartile in University in Simon Marais Mathematics Challenge 2023",
@@ -224,7 +224,7 @@ const degrees = {
       subtitle: "10th + 12th CBSE",
       logo_path: "aps.png",
       alt_name: "APS",
-      duration: "2008 - 2022",
+      duration: "May 2008 - May 2022",
       descriptions: [
         "🏆 IITJEE All All India Rank Advanced: 535, Mains: 619",
         "🏆 CBSE XII Board (2022): 97.4% Aggregate (Mathematics 100%, Computer Science 100%)",
@@ -329,14 +329,25 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
+          title: "Teaching Assistant",
+          company: "Indian Institute of Science, Bengaluru",
+          company_url: "https://btech-ug.iisc.ac.in/",
+          logo_path: "iisc_logo.png",
+          duration: "January 2026 - March 2026",
+          location: "Bengaluru, Karnataka, India",
+          description:
+            "Teaching Assistant for Undergraduate Course on Introduction to Artificial Intelligence and Machine Learning (UMC 203) and Graduate Course on Game Theory (E1 254)",
+          color: "#159f0d",
+        },
+        {
           title: "Core Member and Project Guide",
           company: "Databased IISc",
           company_url: "https://databased.csa.iisc.ac.in/",
           logo_path: "dbd.png",
-          duration: "Decemeber 2022 - Present",
+          duration: "December 2022 - March 2026",
           location: "Bengaluru, Karnataka, India",
           description:
-            "One of the core members of Databased, the computer science crew of IISc. I was part of the content design team. I have designed interactive projects - Tic Tac Toe solver, Rock Paper Scissors using Computer Vision, Celebrity look alike cam - for Open Day 2023 and 2024. Currently I'm a project guide for an introductory AI/ML tutorial series for first year students.",
+            "One of the core members of Databased, the computer science crew of IISc. I was part of the content design team. I have designed interactive projects - Tic Tac Toe solver, Rock Paper Scissors using Computer Vision, Celebrity look alike cam, ASCII Art - for Open Day 2023, 2024, 2025, and 2026. I also guided an introductory AI/ML tutorial series for freshers in 2025.",
           color: "#4285F4",
         },
         {
