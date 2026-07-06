@@ -209,7 +209,7 @@ const degrees = {
       subtitle: "B.Tech in Mathematics & Computing",
       logo_path: "iisc_logo.png",
       alt_name: "IISc Bengaluru",
-      duration: "October 2022 - July 2026",
+      duration: "Oct 2022 - Jul 2026",
       descriptions: [
         "🎓 Graduated with a CGPA of 9.8/10",
         "🎯 Sports Coordinator - Chess ♟️ and Speedcubing 🧩",
@@ -295,7 +295,7 @@ const experience = {
           company: "KLA Corporation",
           company_url: "https://www.kla.com/",
           logo_path: "kla.png",
-          duration: "May 2025 - December 2025",
+          duration: "May 2025 - Dec 2025",
           location: "Chennai, Tamil Nadu, India",
           description:
             "Building ML algorithms and feature engineering for semiconductor manufacturing processes. Working on data analysis, model development, and deployment to improve yield and process efficiency.",
@@ -306,7 +306,7 @@ const experience = {
           company: "DRDO Young Scientist AI Lab",
           company_url: "https://www.drdo.gov.in/drdo/",
           logo_path: "dyslai.png",
-          duration: "May 2024 - July 2024",
+          duration: "May 2024 - Jul 2024",
           location: "Bengaluru, Karnataka, India",
           description:
             "Researched Bias Detection in state-of-the-art Facial Recognition algorithms. Designed experiments revealing ~20% disparity across groups. Deployed deep learning models like AdaFace, GhostFace, ArcFace, etc. to analyze biases and enhance dataset robustness. Generated synthetic data using GANs to mitigate biases.",
@@ -317,7 +317,7 @@ const experience = {
           company: "IBM",
           company_url: "https://www.ibm.com/in-en",
           logo_path: "ibm_logo.png",
-          duration: "June 2023 - December 2023",
+          duration: "Jun 2023 - Dec 2023",
           location: "Remote",
           description:
             "Developed proof of concept for ElectionGPT, a chatbot with 85.21% accuracy for answering election-related queries about 2023 Karnataka Elections. Integrated SQL Agents for real-time data retrieval and deployed across platforms, ensuring scalability and seamless functionality. Deployed conversation buffer memory for context-aware interactions.",
@@ -333,7 +333,7 @@ const experience = {
           company: "Indian Institute of Science, Bengaluru",
           company_url: "https://btech-ug.iisc.ac.in/",
           logo_path: "iisc_logo.png",
-          duration: "January 2026 - March 2026",
+          duration: "Jan 2026 - Mar 2026",
           location: "Bengaluru, Karnataka, India",
           description:
             "Teaching Assistant for Undergraduate Course on Introduction to Artificial Intelligence and Machine Learning (UMC 203) and Graduate Course on Game Theory (E1 254)",
@@ -344,7 +344,7 @@ const experience = {
           company: "Databased IISc",
           company_url: "https://databased.csa.iisc.ac.in/",
           logo_path: "dbd.png",
-          duration: "December 2022 - March 2026",
+          duration: "Dec 2022 - Mar 2026",
           location: "Bengaluru, Karnataka, India",
           description:
             "One of the core members of Databased, the computer science crew of IISc. I was part of the content design team. I have designed interactive projects - Tic Tac Toe solver, Rock Paper Scissors using Computer Vision, Celebrity look alike cam, ASCII Art - for Open Day 2023, 2024, 2025, and 2026. I also guided an introductory AI/ML tutorial series for freshers in 2025.",
@@ -371,7 +371,7 @@ const experience = {
     //       company: "TikTok Inc.",
     //       company_url: "https://www.tiktok.com/en/",
     //       logo_path: "tiktok_logo.png",
-    //       duration: "June 2023 - Present",
+    //       duration: "Jun 2023 - Present",
     //       location: "San Jose, CA, USA",
     //       description:
     //         "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
