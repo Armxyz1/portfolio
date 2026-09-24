@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Armaan Khetarpaul — Portfolio",
   description:
-    "Machine Learning Engineer passionate about building scalable AI solutions and end-to-end products that create real-world impact.",
+    "AI/ML Researcher & Engineer CV • LLMs • Representation Learning",
   og: {
     title: "Armaan Khetarpaul — Portfolio",
     type: "website",
@@ -21,8 +21,7 @@ const seo = {
 const greeting = {
   title: "Armaan Khetarpaul",
   logo_name: "ArmaanKhetarpaul",
-  subTitle:
-    "Machine Learning Engineer passionate about building scalable AI solutions and end-to-end products that create real-world impact.",
+  subTitle: "AI/ML Researcher & Engineer CV • LLMs • Representation Learning",
   resumeLink:
     "https://drive.google.com/file/d/1WThtwd-jzGQ9MqgJuoxUMxzhNUy6G_97/view?usp=sharing",
   portfolio_repository: "https://github.com/Armxyz1/portfolio",
@@ -48,24 +47,18 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "Outlook",
-    link: "mailto:armaank@iisc.ac.in",
-    fontAwesomeIcon: "fa-microsoft",
-    backgroundColor: "#0078D4", // Reference https://simpleicons.org/?q
-  },
 ];
 
 const skills = {
   data: [
     {
-      title: "Data Science, AI & ML",
+      title: "Machine Learning & Intelligent Systems",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Designing and deploying scalable machine learning models for real-world industrial and research applications",
-        "⚡ Extensive experience with Computer Vision (CV) and Natural Language Processing (NLP) tasks, including image classification, object detection, and language modeling",
-        "⚡ Building end-to-end ML pipelines: data preprocessing, feature engineering, model training, evaluation, and deployment",
-        "⚡ Applying deep learning architectures (CNNs, RNNs, Transformers) to solve complex business and research problems",
+        "⚡ Building scalable ML systems for research and real-world applications with a focus on reliability and generalization",
+        "⚡ Developing AI solutions in computer vision, NLP, LLMs, and intelligent agents",
+        "⚡ Designing end-to-end ML pipelines from data processing to model deployment and optimization",
+        "⚡ Applying modern deep learning methods such as self-supervised learning, transformers, distillation, and generative models",
       ],
       softwareSkills: [
         {
@@ -99,7 +92,7 @@ const skills = {
         },
         {
           skillName: "Scikit-learn",
-          fontAwesomeClassname: "logos-scikit-learn",
+          fontAwesomeClassname: "simple-icons:scikitlearn",
           style: {
             backgroundColor: "transparent",
           },
@@ -119,8 +112,8 @@ const skills = {
           },
         },
         {
-          skillName: "C",
-          fontAwesomeClassname: "logos-c",
+          skillName: "C++",
+          fontAwesomeClassname: "logos:c-plusplus",
           style: {
             backgroundColor: "transparent",
           },
@@ -180,10 +173,11 @@ const skills = {
       title: "Skills",
       fileName: "FullStackImg",
       skills: [
-        "🧠 AI Concepts: Supervised & Unsupervised Learning, Transfer Learning, Fine-Tuning",
-        "🗣️ NLP: RAGs, Generative AI, LLMs, RNNs, LSTMs, AI Agents",
-        "🖼️ Computer Vision: Image Classification, Object Detection, Image Segmentation, YOLO, ViT, GANs",
-        "📊 Data Science: Recommendation Systems, Statistical Modeling, Hypothesis Testing, A/B Testing, Feature Engineering",
+        "🧠 Machine Learning: Supervised & Unsupervised Learning, Self-Supervised Learning, Representation Learning, Transfer Learning, Fine-Tuning, Knowledge Distillation",
+        "🤖 Generative AI & NLP: LLMs, RAG, Generative AI, NLP Agents, NL2SQL, Transformers",
+        "🖼️ Computer Vision: Image Classification, Object Detection, Image Segmentation, Vision Transformers, Video Understanding, Visual Anomaly Detection",
+        "🕸️ AI Systems: Graph Neural Networks, Federated Learning, Explainable AI, Scalable ML Systems",
+        "📊 Data Science: Statistical Modeling, Recommendation Systems, Hypothesis Testing, A/B Testing, Feature Engineering, Anomaly Detection",
       ],
       softwareSkills: [],
     },
@@ -191,10 +185,10 @@ const skills = {
       title: "Areas of Interest",
       fileName: "",
       skills: [
-        "🧠 Artificial Intelligence, Machine Learning, Deep Learning, Natural Language Processing, Computer Vision",
-        "📊 Data Science, Probability, Statistics, Optimization, Distributed Computing",
-        "🧮 Linear Algebra, Calculus, Discrete Mathematics",
-        "🕸️ Graph Theory, Game Theory",
+        "🧠 AI & Machine Learning: Artificial Intelligence, Machine Learning, Deep Learning, Natural Language Processing, Computer Vision",
+        "📊 Mathematical Foundations: Probability, Statistics, Optimization, Statistical Modeling, Distributed Computing",
+        "🧮 Mathematics: Linear Algebra, Calculus, Discrete Mathematics",
+        "🕸️ Theory & Algorithms: Graph Theory, Game Theory, Algorithms & Data Structures",
       ],
       softwareSkills: [],
     },
@@ -205,19 +199,32 @@ const skills = {
 const degrees = {
   degrees: [
     {
+      title: "ETH Zurich",
+      subtitle: "MSc in Computer Science",
+      logo_path: "eth_logo.png",
+      alt_name: "ETH Zurich",
+      duration: "Sept 2026 - Present",
+      descriptions: [
+        "🎓 Pursuing a Master's degree in Computer Science",
+        "🎯 Major: Machine Intelligence, Minor: Data Management Systems",
+      ],
+      website_link:
+        "https://ethz.ch/en/studies/master/degree-programmes/engineering-sciences/computer-science.html",
+    },
+    {
       title: "Indian Institute of Science, Bengaluru",
       subtitle: "B.Tech in Mathematics & Computing",
       logo_path: "iisc_logo.png",
       alt_name: "IISc Bengaluru",
       duration: "Oct 2022 - Jul 2026",
       descriptions: [
-        "🎓 Graduated with a CGPA of 9.8/10",
-        "🎯 Sports Coordinator - Chess ♟️ and Speedcubing 🧩",
-        "🏅 Awarded Chander Mohini Scholarship for Highest CGPA in 1st Year",
-        "📈 Acheieved Top Quartile in University in Simon Marais Mathematics Challenge 2023",
-        "🏆 Regional Qualifier for IET India Scholarship Awards 2023",
+        "🎓 Graduated with a CGPA of 9.8/10, highest in the cohort",
+        "🔬 Bachelor's Thesis: Factorized Representation Learning for Data-Scarce Prediction : An Application to Monsoon Onset Prediction",
+        "🤖 Research across Graph Neural Networks, LLM Agents, Federated Learning, and Computer Vision",
+        "🏅 Awarded the Chander Mohini Scholarship for the highest CGPA in the first year",
+        "🏆 Regional Qualifier for the IET India Scholarship Awards 2023 and Top Quartile in the Simon Marais Mathematics Challenge 2023",
       ],
-      website_link: "http://iisc.ac.in",
+      website_link: "https://btech-ug.iisc.ac.in/",
     },
     {
       title: "Ahlcon Public School",
@@ -386,7 +393,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create AI/ML projects and deploy them to solve real world problems.",
+    "My projects explore modern AI/ML techniques across different domains, from computer vision and LLMs to intelligent systems and data-driven applications.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -415,7 +422,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "me_circ.png",
     description:
-      "Feel free to reach out to me through mail or through LinkedIn. I can help you with ML, AI, and Data Science!",
+      "Feel free to reach out via email or LinkedIn. I am always happy to discuss AI, machine learning, data science, research, or interesting technical projects!",
   },
 };
 
