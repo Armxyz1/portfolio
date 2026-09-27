@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "ArmaanKhetarpaul",
   subTitle: "AI/ML Researcher & Engineer CV • LLMs • Representation Learning",
   resumeLink:
-    "https://drive.google.com/file/d/1WThtwd-jzGQ9MqgJuoxUMxzhNUy6G_97/view?usp=sharing",
+    "https://drive.google.com/file/d/1JICr36RAYO7sQB7Kq3Es3m5zhT1b90ND/view?usp=sharing",
   portfolio_repository: "https://github.com/Armxyz1/portfolio",
   githubProfile: "https://github.com/Armxyz1",
 };
