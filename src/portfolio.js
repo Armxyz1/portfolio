@@ -406,6 +406,14 @@ const publicationsHeader = {
 const publications = {
   data: [
     {
+      id: "llm_bargaining",
+      name: "Can LLMs Function as Rational Agents in Bargaining Scenarios?",
+      createdAt: "2025-12-17T00:00:00Z",
+      description:
+        "Research Paper Presented at WISE 2025 - The 1st International Workshop on LLM-Driven Agents",
+      url: "https://doi.org/10.1007/978-981-92-1397-9_12",
+    },
+    {
       id: "soccart",
       name: "SoccArt: Soccer Game Analysis Pipeline",
       createdAt: "2024-12-14T00:00:00Z",
